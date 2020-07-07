@@ -22,6 +22,6 @@ For example
 
     java -jar ./build/libs/top20words.jar mobydick.txt
     
-### Verify with bash script output
+### Compare with bash script output
 
     ./top20words.sh mobydick.txt
