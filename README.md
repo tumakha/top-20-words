@@ -2,7 +2,7 @@
 Print 20 most frequently used words in the file (Technical test)
 
 #### Requirements
-Java 13+, Gradle 6 or gradle-wrapper
+Java 14+, Gradle 6 or gradle-wrapper
 
 #### Build
 
