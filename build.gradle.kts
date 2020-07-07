@@ -23,6 +23,9 @@ dependencies {
 
 tasks.jar {
     archiveFileName.set("top20words.jar")
+    manifest {
+        attributes["Main-Class"] = "top20words.Main"
+    }
 }
 
 tasks.test {
