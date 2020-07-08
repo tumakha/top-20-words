@@ -35,7 +35,7 @@ public class Top20WordsReader {
             int code;
             StringBuilder wordBuilder = new StringBuilder();
             while ((code = fileReader.read()) != -1) {
-                if ((UPPER_A <= code && code <= UPPER_Z) || (LOWER_A <= code && code <= LOWER_Z)) { // code in [A-Za-z]
+                if ((LOWER_A <= code && code <= LOWER_Z) || (UPPER_A <= code && code <= UPPER_Z)) { // code in [A-Za-z]
                     wordBuilder.append(Character.toLowerCase((char) code));
                 } else if (wordBuilder.length() > 0) {
                     wordFrequencies.compute(wordBuilder.toString(), (k, v) -> (v == null) ? 1L : ++v);
