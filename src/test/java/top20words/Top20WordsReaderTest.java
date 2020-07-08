@@ -17,7 +17,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class Top20WordsReaderTest implements ResourceReader {
 
     @ParameterizedTest
-    @ValueSource(strings = {"gradlew", "mobydick.txt", "gradle/wrapper/gradle-wrapper.jar"})
+    @ValueSource(strings = {"gradlew", "data/mobydick.txt", "gradle/wrapper/gradle-wrapper.jar"})
     public void getTop20Words(String filename) throws IOException {
         OutputStream os = new ByteArrayOutputStream();
 

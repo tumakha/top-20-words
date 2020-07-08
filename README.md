@@ -16,12 +16,12 @@ Java 14+, Gradle 6 or gradle-wrapper
 
 #### Run
 
-    java -jar ./build/libs/top20words.jar <filename>
+    java -jar build/libs/top20words.jar <filename>
     
 For example
 
-    java -jar ./build/libs/top20words.jar mobydick.txt
+    java -jar build/libs/top20words.jar data/mobydick.txt
     
 ### Compare with bash script output
 
-    ./top20words.sh mobydick.txt
+    ./top20words.sh data/mobydick.txt

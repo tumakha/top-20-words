@@ -6,15 +6,15 @@
      15 home
      14 if
      13 gradle
-     12 app
      12 then
      12 fi
-     11 for
+     12 app
      11 max
-     10 fd
+     11 for
      10 in
+     10 fd
       9 echo
       8 opts
+      8 license
       8 i
       8 false
-      8 license
